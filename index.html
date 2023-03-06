@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="css/style.css">
+    <title>Project</title>
+</head>
+<body>
+    
+ <section class="top-section">
+    <h1 class="heading">Discount Table</h1>
+    <div class="discount">
+    <table class="tb">
+        <tr class="top">
+        <th>Vendor</th>
+        <th>Trade A </th>
+        <th>Trade B </th>
+        <th>Trade C </th>
+        <th>Trade D </th>
+        </tr> 
+      <tr class="top">
+        <td>Vendor1</td>
+        <td>12</td>
+        <td>12</td>
+        <td>N/A</td>
+        <td>6</td>
+      </tr>
+      <tr class="top">
+        <td>Vendor2</td>
+        <td>10</td>
+        <td>8</td>
+        <td>20</td>
+        <td>N/A</td>
+      </tr>
+      <tr class="top">
+        <td>Vendor3</td>
+        <td>N/A</td>
+        <td>25</td>
+        <td>3</td>
+        <td>16</td>
+      </tr>
+      <tr class="top">
+        <td>Vendor4</td>
+        <td>9</td>
+        <td>N/A</td>
+        <td>16</td>
+        <td>30</td>
+      </tr>
+      <tr class="top">
+        <td>Vendor5</td>
+        <td>5</td>
+        <td>11</td>
+        <td>N/A</td>
+        <td>30</td>
+      </tr>
+
+    </table>
+</div>
+</section>
+
+<section class="middle">
+    <h1 class="heading">Product Table</h1>
+    <div class="middle-discount">
+    <table class="tb">
+        <tr class="top">
+        <th>#</th>
+        <th>Product Name</th>
+        <th>Price </th>
+        <th>Tags </th>
+        <th>Vendor</th>
+        <th>Card</th>
+        </tr> 
+
+        <tr class="top">
+            <td>1</td>
+            <td>Test Product 1</td>
+            <td>12.5</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 5</td>
+            <td><button onclick="addToCart('Product 1', 50)">Add To Card</button></td>
+          </tr>
+        
+          <tr class="top">
+            <td>2</td>
+            <td>Test Product 2</td>
+            <td>42.5</td>
+            <td>TRADE B,ice2</td>
+            <td>vendor 4</td>
+            <td><button onclick="addToCart('Product 2', 50)">Add To Card</button></td>
+          </tr>
+
+          <tr class="top">
+            <td>3</td>
+            <td>Test Product 3</td>
+            <td>200</td>
+            <td>TRADE C,test</td>
+            <td>vendor 3</td>
+            <td><button onclick="addToCart('Product 3', 50)">Add To Card</button></td>
+          </tr>
+
+          <tr class="top">
+            <td>4</td>
+            <td>Test Product 4</td>
+            <td>52.5</td>
+            <td>TRADE C,test</td>
+            <td>vendor 2</td>
+            <td><button onclick="addToCart('Product 4', 50)">Add To Card</button></td>
+          </tr>
+
+          <tr class="top">
+            <td>5</td>
+            <td>Test Product 5</td>
+            <td>712.5</td>
+            <td>TRADE D,test</td>
+            <td>vendor 1</td>
+            <td><button onclick="addToCart('Product 5', 50)">Add To Card</button></td>
+          </tr>
+
+          <tr class="top">
+            <td>6</td>
+            <td>Test Product 6</td>
+            <td>17</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 3</td>
+            <td><button onclick="addToCart('Product 6', 50)">Add To Card</button></td>
+          </tr>
+
+          <tr class="top">
+            <td>7</td>
+            <td>Test Product 7</td>
+            <td>55</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 3</td>
+            <td><button onclick="addToCart('Product 7', 50)">Add To Card</button></td>
+          </tr>
+
+          <tr class="top">
+            <td>8</td>
+            <td>Test Product 8</td>
+            <td>37</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 4</td>
+            <td><button onclick="addToCart('Product 8', 50)">Add To Card</button></td>
+          </tr>
+
+          <tr class="top">
+            <td>9</td>
+            <td>Test Product 9</td>
+            <td>82</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 4</td>
+            <td><button onclick="addToCart('Product 9', 50)">Add To Card</button></td>
+          </tr>
+
+          <tr class="top">
+            <td>10</td>
+            <td>Test Product 10</td>
+            <td>52</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 2</td>
+            <td><button onclick="addToCart('Product 10', 50)">Add To Card</button></td>
+          </tr>
+
+          <tr class="top">
+            <td>11</td>
+            <td>Test Product 11</td>
+            <td>102</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 1</td>
+            <td><button onclick="addToCart('Product 11', 50)">Add To Card</button></td>
+          </tr>
+
+          <tr class="top">
+            <td>12</td>
+            <td>Test Product 12</td>
+            <td>172.5</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 4</td>
+            <td><button onclick="addToCart('Product 12', 50)">Add To Card</button></td>
+          </tr>
+          
+          <tr class="top">
+            <td>13</td>
+            <td>Test Product 13</td>
+            <td>100</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 5</td>
+            <td><button onclick="addToCart('Product 13', 50)">Add To Card</button></td>
+          </tr>
+          
+          <tr class="top">
+            <td>14</td>
+            <td>Test Product 14</td>
+            <td>99.5</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 5</td>
+            <td><button onclick="addToCart('Product 14', 50)">Add To Card</button></td>
+          </tr>
+          
+          <tr class="top">
+            <td>15</td>
+            <td>Test Product 15</td>
+            <td>87.5</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 5</td>
+            <td><button onclick="addToCart('Product 13', 50)">Add To Card</button></td>
+          </tr>
+          
+          <tr class="top">
+            <td>16</td>
+            <td>Test Product 16</td>
+            <td>12.5</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 1</td>
+            <td><button onclick="addToCart('Product 15', 50)">Add To Card</button></td>
+          </tr>
+          
+          <tr class="top">
+            <td>17</td>
+            <td>Test Product 17</td>
+            <td>57</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 2</td>
+            <td><button onclick="addToCart('Product 16', 50)">Add To Card</button></td>
+          </tr>
+          
+          <tr class="top">
+            <td>18</td>
+            <td>Test Product 18</td>
+            <td>10</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 3</td>
+            <td><button onclick="addToCart('Product 17', 50)">Add To Card</button></td>
+          </tr>
+          
+          <tr class="top">
+            <td>19</td>
+            <td>Test Product 19</td>
+            <td>412.5</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 4</td>
+            <td><button onclick="addToCart('Product 18', 50)">Add To Card</button></td>
+          </tr>
+          
+          <tr class="top">
+            <td>20</td>
+            <td>Test Product 20</td>
+            <td>102</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 5</td>
+            <td><button onclick="addToCart('Product 19', 50)">Add To Card</button></td>
+          </tr>
+          
+          <tr class="top">
+            <td>21</td>
+            <td>Test Product 21</td>
+            <td>52</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 3</td>
+            <td><button onclick="addToCart('Product 20', 50)">Add To Card</button></td>
+          </tr>
+          
+          <tr class="top">
+            <td>22</td>
+            <td>Test Product 22</td>
+            <td>32</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 2</td>
+            <td><button onclick="addToCart('Product 21', 50)">Add To Card</button></td>
+          </tr>
+          
+          <tr class="top">
+            <td>23</td>
+            <td>Test Product 23</td>
+            <td>12</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 4</td>
+            <td><button onclick="addToCart('Product 22', 50)">Add To Card</button></td>
+          </tr>
+          
+          <tr class="top">
+            <td>24</td>
+            <td>Test Product 24</td>
+            <td>584.5</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 1</td>
+            <td><button onclick="addToCart('Product 23', 50)">Add To Card</button></td>
+          </tr>
+          
+          <tr class="top">
+            <td>25</td>
+            <td>Test Product 25</td>
+            <td>67</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 5</td>
+            <td><button onclick="addToCart('Product 24', 50)">Add To Card</button></td>
+          </tr>
+          
+          <tr class="top">
+            <td>26</td>
+            <td>Test Product 26</td>
+            <td>132.5</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 5</td>
+            <td><button onclick="addToCart('Product 25', 50)">Add To Card</button></td>
+          </tr>
+          
+          <tr class="top">
+            <td>27</td>
+            <td>Test Product 27</td>
+            <td>42.5</td>
+            <td>TRADE A,ice</td>
+            <td>vendor 2</td>
+            <td><button onclick="addToCart('Product 26', 50)">Add To Card</button></td>
+          </tr>    
+</section>
+
+
+<table id="cart">
+  <tr>
+    <th>Product Name</th>
+    <th>Price</th>
+  </tr>
+</table>
+<script>
+    let cart = [];
+        
+        function updateCart() {
+        let cartTable = document.getElementById("cart");
+        cartTable.innerHTML = `
+          <tr>
+            <th>Product Name</th>
+            <th>Price</th>
+          </tr>
+        `;
+        for (let item of cart) {
+          let row = document.createElement("tr");
+          row.innerHTML = `
+            <td>${item.name}</td>
+            <td>$${item.price.toFixed(2)}</td>
+          `;
+          cartTable.appendChild(row);
+        }
+      }
+      
+      // Call updateCart whenever a product is added to the cart
+      function addToCart(productName, originalPrice) {
+        // Calculate discounted price
+        let discountedPrice = originalPrice * 0.9; // 10% discount
+      
+        // Add product to cart
+        cart.push({ name: productName, price: discountedPrice });
+      
+        // Update cart display
+        updateCart();
+      
+        // Display success message
+        alert(`${productName} has been added to your cart.`);
+      }
+
+</script>
+
+</body>
+</html>
