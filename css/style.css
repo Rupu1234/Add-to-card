@@ -1,0 +1,33 @@
+.heading{
+    text-align: center;
+}
+.top{ 
+    text-align: center;
+    border: 1px solid gray;
+}
+th{
+    border: 1px solid gray;
+    background-color: black;
+    color: white;
+    width: 150px;
+}
+td{
+    border: 1px solid gray;
+}
+.discount{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.middle-discount{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.tb{
+    width: 90%;
+}
+button{
+    background-color: green;
+    color: white;
+}
